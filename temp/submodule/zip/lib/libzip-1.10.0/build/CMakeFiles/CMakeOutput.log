@@ -1,0 +1,906 @@
+The system is: Linux - 5.19.0-46-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0c625/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_0c625.dir/build.make CMakeFiles/cmTC_0c625.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c625.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0c625.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuAGARl.s
+GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04.1) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04.1) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e13e2dc98bfa673227c4000e476a9388
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c625.dir/'
+ as -v --64 -o CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o /tmp/ccuAGARl.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_0c625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c625.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o -o cmTC_0c625 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c625' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c625.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6HgS15.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c625 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c625' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c625.'
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0c625/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0c625.dir/build.make CMakeFiles/cmTC_0c625.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c625.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0c625.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuAGARl.s]
+  ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04.1) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04.1) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e13e2dc98bfa673227c4000e476a9388]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c625.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o /tmp/ccuAGARl.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_0c625]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c625.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o -o cmTC_0c625 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-aYxV0E/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c625' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c625.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6HgS15.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c625 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6HgS15.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0c625] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_0c625.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function explicit_bzero exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e99a6/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_e99a6.dir/build.make CMakeFiles/cmTC_e99a6.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e99a6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=explicit_bzero -o CMakeFiles/cmTC_e99a6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e99a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e99a6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explicit_bzero CMakeFiles/cmTC_e99a6.dir/CheckFunctionExists.c.o -o cmTC_e99a6 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fchmod exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73213/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_73213.dir/build.make CMakeFiles/cmTC_73213.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73213.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=fchmod -o CMakeFiles/cmTC_73213.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73213.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fchmod CMakeFiles/cmTC_73213.dir/CheckFunctionExists.c.o -o cmTC_73213 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fileno exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64f41/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_64f41.dir/build.make CMakeFiles/cmTC_64f41.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64f41.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=fileno -o CMakeFiles/cmTC_64f41.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64f41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f41.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fileno CMakeFiles/cmTC_64f41.dir/CheckFunctionExists.c.o -o cmTC_64f41 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33f15/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_33f15.dir/build.make CMakeFiles/cmTC_33f15.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33f15.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=fseeko -o CMakeFiles/cmTC_33f15.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33f15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33f15.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_33f15.dir/CheckFunctionExists.c.o -o cmTC_33f15 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7dd4/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_e7dd4.dir/build.make CMakeFiles/cmTC_e7dd4.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7dd4.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=ftello -o CMakeFiles/cmTC_e7dd4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7dd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7dd4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ftello CMakeFiles/cmTC_e7dd4.dir/CheckFunctionExists.c.o -o cmTC_e7dd4 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the localtime_r exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4521/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f4521.dir/build.make CMakeFiles/cmTC_f4521.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4521.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_f4521.dir/CheckSymbolExists.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f4521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4521.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f4521.dir/CheckSymbolExists.c.o -o cmTC_f4521 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+File /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7793/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b7793.dir/build.make CMakeFiles/cmTC_b7793.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7793.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_b7793.dir/CheckSymbolExists.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b7793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7793.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b7793.dir/CheckSymbolExists.c.o -o cmTC_b7793 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+File /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5330/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_d5330.dir/build.make CMakeFiles/cmTC_d5330.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5330.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_d5330.dir/CheckSymbolExists.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d5330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5330.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d5330.dir/CheckSymbolExists.c.o -o cmTC_d5330 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+File /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0d33/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_d0d33.dir/build.make CMakeFiles/cmTC_d0d33.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0d33.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=strdup -o CMakeFiles/cmTC_d0d33.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d0d33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0d33.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strdup CMakeFiles/cmTC_d0d33.dir/CheckFunctionExists.c.o -o cmTC_d0d33 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8734/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b8734.dir/build.make CMakeFiles/cmTC_b8734.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8734.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=strtoll -o CMakeFiles/cmTC_b8734.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8734
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8734.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoll CMakeFiles/cmTC_b8734.dir/CheckFunctionExists.c.o -o cmTC_b8734 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a563/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_6a563.dir/build.make CMakeFiles/cmTC_6a563.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a563.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=strtoull -o CMakeFiles/cmTC_6a563.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a563
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a563.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoull CMakeFiles/cmTC_6a563.dir/CheckFunctionExists.c.o -o cmTC_6a563 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;sys/stat.h;fts.h exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd883/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_bd883.dir/build.make CMakeFiles/cmTC_bd883.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd883.dir/HAVE_FTS_H.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_bd883.dir/HAVE_FTS_H.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckIncludeFiles/HAVE_FTS_H.c
+Linking C executable cmTC_bd883
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd883.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bd883.dir/HAVE_FTS_H.c.o -o cmTC_bd883 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fts_open exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4874d/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_4874d.dir/build.make CMakeFiles/cmTC_4874d.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4874d.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=fts_open -o CMakeFiles/cmTC_4874d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4874d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4874d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fts_open CMakeFiles/cmTC_4874d.dir/CheckFunctionExists.c.o -o cmTC_4874d 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9368e/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_9368e.dir/build.make CMakeFiles/cmTC_9368e.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9368e.dir/HAVE_STDBOOL_H.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_9368e.dir/HAVE_STDBOOL_H.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c
+Linking C executable cmTC_9368e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9368e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9368e.dir/HAVE_STDBOOL_H.c.o -o cmTC_9368e 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65480/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_65480.dir/build.make CMakeFiles/cmTC_65480.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65480.dir/HAVE_STRINGS_H.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_65480.dir/HAVE_STRINGS_H.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_65480
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65480.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_65480.dir/HAVE_STRINGS_H.c.o -o cmTC_65480 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c8ba/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1c8ba.dir/build.make CMakeFiles/cmTC_1c8ba.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c8ba.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_1c8ba.dir/HAVE_UNISTD_H.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_1c8ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c8ba.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1c8ba.dir/HAVE_UNISTD_H.c.o -o cmTC_1c8ba 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_767cd/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_767cd.dir/build.make CMakeFiles/cmTC_767cd.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_767cd.dir/HAVE_INTTYPES_H_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_767cd.dir/HAVE_INTTYPES_H_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H_LIBZIP.c
+Linking C executable cmTC_767cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_767cd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_767cd.dir/HAVE_INTTYPES_H_LIBZIP.c.o -o cmTC_767cd 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6507/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_d6507.dir/build.make CMakeFiles/cmTC_d6507.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6507.dir/HAVE_STDINT_H_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_d6507.dir/HAVE_STDINT_H_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H_LIBZIP.c
+Linking C executable cmTC_d6507
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6507.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d6507.dir/HAVE_STDINT_H_LIBZIP.c.o -o cmTC_d6507 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6e1c/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a6e1c.dir/build.make CMakeFiles/cmTC_a6e1c.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6e1c.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_a6e1c.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TYPES_H_LIBZIP.c
+Linking C executable cmTC_a6e1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6e1c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a6e1c.dir/HAVE_SYS_TYPES_H_LIBZIP.c.o -o cmTC_a6e1c 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b968/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_9b968.dir/build.make CMakeFiles/cmTC_9b968.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b968.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_9b968.dir/CheckIncludeFile.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9b968
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b968.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9b968.dir/CheckIncludeFile.c.o -o cmTC_9b968 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6347c/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_6347c.dir/build.make CMakeFiles/cmTC_6347c.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6347c.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_6347c.dir/CheckIncludeFile.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6347c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6347c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6347c.dir/CheckIncludeFile.c.o -o cmTC_6347c 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8db9/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f8db9.dir/build.make CMakeFiles/cmTC_f8db9.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8db9.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_f8db9.dir/CheckIncludeFile.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f8db9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8db9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f8db9.dir/CheckIncludeFile.c.o -o cmTC_f8db9 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43138/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_43138.dir/build.make CMakeFiles/cmTC_43138.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43138.dir/INT8_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_43138.dir/INT8_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/INT8_T_LIBZIP.c
+Linking C executable cmTC_43138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43138.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_43138.dir/INT8_T_LIBZIP.c.o -o cmTC_43138 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecf88/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_ecf88.dir/build.make CMakeFiles/cmTC_ecf88.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecf88.dir/UINT8_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_ecf88.dir/UINT8_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/UINT8_T_LIBZIP.c
+Linking C executable cmTC_ecf88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecf88.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ecf88.dir/UINT8_T_LIBZIP.c.o -o cmTC_ecf88 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c21d/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_3c21d.dir/build.make CMakeFiles/cmTC_3c21d.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c21d.dir/INT16_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_3c21d.dir/INT16_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/INT16_T_LIBZIP.c
+Linking C executable cmTC_3c21d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c21d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3c21d.dir/INT16_T_LIBZIP.c.o -o cmTC_3c21d 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b124e/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b124e.dir/build.make CMakeFiles/cmTC_b124e.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b124e.dir/UINT16_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_b124e.dir/UINT16_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/UINT16_T_LIBZIP.c
+Linking C executable cmTC_b124e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b124e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b124e.dir/UINT16_T_LIBZIP.c.o -o cmTC_b124e 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c39ef/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_c39ef.dir/build.make CMakeFiles/cmTC_c39ef.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c39ef.dir/INT32_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_c39ef.dir/INT32_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/INT32_T_LIBZIP.c
+Linking C executable cmTC_c39ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c39ef.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c39ef.dir/INT32_T_LIBZIP.c.o -o cmTC_c39ef 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f454/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_8f454.dir/build.make CMakeFiles/cmTC_8f454.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f454.dir/UINT32_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_8f454.dir/UINT32_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/UINT32_T_LIBZIP.c
+Linking C executable cmTC_8f454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f454.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8f454.dir/UINT32_T_LIBZIP.c.o -o cmTC_8f454 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_78aee/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_78aee.dir/build.make CMakeFiles/cmTC_78aee.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78aee.dir/INT64_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_78aee.dir/INT64_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/INT64_T_LIBZIP.c
+Linking C executable cmTC_78aee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78aee.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_78aee.dir/INT64_T_LIBZIP.c.o -o cmTC_78aee 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f533/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1f533.dir/build.make CMakeFiles/cmTC_1f533.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f533.dir/UINT64_T_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_1f533.dir/UINT64_T_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/UINT64_T_LIBZIP.c
+Linking C executable cmTC_1f533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f533.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1f533.dir/UINT64_T_LIBZIP.c.o -o cmTC_1f533 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc321/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_cc321.dir/build.make CMakeFiles/cmTC_cc321.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc321.dir/SHORT_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_cc321.dir/SHORT_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/SHORT_LIBZIP.c
+Linking C executable cmTC_cc321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc321.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cc321.dir/SHORT_LIBZIP.c.o -o cmTC_cc321 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61b7b/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_61b7b.dir/build.make CMakeFiles/cmTC_61b7b.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61b7b.dir/INT_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_61b7b.dir/INT_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/INT_LIBZIP.c
+Linking C executable cmTC_61b7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61b7b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_61b7b.dir/INT_LIBZIP.c.o -o cmTC_61b7b 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c30b/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_4c30b.dir/build.make CMakeFiles/cmTC_4c30b.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c30b.dir/LONG_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_4c30b.dir/LONG_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/LONG_LIBZIP.c
+Linking C executable cmTC_4c30b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c30b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4c30b.dir/LONG_LIBZIP.c.o -o cmTC_4c30b 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5243/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b5243.dir/build.make CMakeFiles/cmTC_b5243.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5243.dir/LONG_LONG_LIBZIP.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_b5243.dir/LONG_LONG_LIBZIP.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/LONG_LONG_LIBZIP.c
+Linking C executable cmTC_b5243
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5243.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b5243.dir/LONG_LONG_LIBZIP.c.o -o cmTC_b5243 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_24bc2/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_24bc2.dir/build.make CMakeFiles/cmTC_24bc2.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24bc2.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_24bc2.dir/SIZEOF_OFF_T.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_24bc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24bc2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_24bc2.dir/SIZEOF_OFF_T.c.o -o cmTC_24bc2 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_efe21/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_efe21.dir/build.make CMakeFiles/cmTC_efe21.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efe21.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_efe21.dir/SIZEOF_SIZE_T.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_efe21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efe21.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_efe21.dir/SIZEOF_SIZE_T.c.o -o cmTC_efe21 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_FICLONERANGE succeeded with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_44f7e/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_44f7e.dir/build.make CMakeFiles/cmTC_44f7e.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44f7e.dir/src.c.o
+/usr/bin/cc -DHAVE_FICLONERANGE -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_44f7e.dir/src.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_44f7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f7e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_44f7e.dir/src.c.o -o cmTC_44f7e 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/ioctl.h>
+#include <linux/fs.h>
+int main(int argc, char *argv[]) { unsigned long x = FICLONERANGE; }
+Determining if the BZ2_bzCompressInit exist passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd3fd/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_bd3fd.dir/build.make CMakeFiles/cmTC_bd3fd.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd3fd.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1   -o CMakeFiles/cmTC_bd3fd.dir/CheckSymbolExists.c.o -c /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bd3fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd3fd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bd3fd.dir/CheckSymbolExists.c.o -o cmTC_bd3fd  /usr/lib/x86_64-linux-gnu/libbz2.so 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+File /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <bzlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef BZ2_bzCompressInit
+  return ((int*)(&BZ2_bzCompressInit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8538/fast && gmake[1]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b8538.dir/build.make CMakeFiles/cmTC_b8538.dir/build
+gmake[2]: Entering directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8538.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D__STDC_WANT_LIB_EXT1__=1  -DCHECK_FUNCTION_EXISTS=getopt -o CMakeFiles/cmTC_b8538.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8538.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getopt CMakeFiles/cmTC_b8538.dir/CheckFunctionExists.c.o -o cmTC_b8538 
+gmake[2]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/ubuntu/Desktop/Project/modman/submodule/zip/lib/libzip-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+

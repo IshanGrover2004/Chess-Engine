@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/autoclose-archive.dir/autoclose-archive.c.o -o autoclose-archive  ../lib/libzip.a /usr/lib/x86_64-linux-gnu/libbz2.so /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/zlib-1.2.13/libz.a 

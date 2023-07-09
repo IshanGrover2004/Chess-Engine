@@ -1,0 +1,9 @@
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/libzippp.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/libzippp_test.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/test.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/list_install_components.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/install.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/install/local.dir
+/home/ubuntu/Desktop/Project/modman/submodule/zip/CMakeFiles/install/strip.dir

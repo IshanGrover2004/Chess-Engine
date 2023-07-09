@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/add-compressed-data.dir/add-compressed-data.c.o -o add-compressed-data  ../lib/libzip.a /usr/lib/x86_64-linux-gnu/libbz2.so /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/zlib-1.2.13/libz.a 

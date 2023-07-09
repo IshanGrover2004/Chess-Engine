@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/in-memory.dir/in-memory.c.o -o in-memory  ../lib/libzip.a /usr/lib/x86_64-linux-gnu/libbz2.so /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/zlib-1.2.13/libz.a 

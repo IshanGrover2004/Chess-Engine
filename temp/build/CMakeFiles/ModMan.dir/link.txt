@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/ModMan.dir/src/main.cpp.o CMakeFiles/ModMan.dir/src/metadata.cpp.o -o ModMan 

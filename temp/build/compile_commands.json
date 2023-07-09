@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ubuntu/Desktop/Project/temp/build",
+  "command": "/usr/bin/g++  -I/home/ubuntu/Desktop/Project/temp/include -g -std=gnu++11 -o CMakeFiles/ModMan.dir/src/main.cpp.o -c /home/ubuntu/Desktop/Project/temp/src/main.cpp",
+  "file": "/home/ubuntu/Desktop/Project/temp/src/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/Desktop/Project/temp/build",
+  "command": "/usr/bin/g++  -I/home/ubuntu/Desktop/Project/temp/include -g -std=gnu++11 -o CMakeFiles/ModMan.dir/src/metadata.cpp.o -c /home/ubuntu/Desktop/Project/temp/src/metadata.cpp",
+  "file": "/home/ubuntu/Desktop/Project/temp/src/metadata.cpp"
+},
+{
+  "directory": "/home/ubuntu/Desktop/Project/temp/build/submodule/zip",
+  "command": "/usr/bin/g++  -I/home/ubuntu/Desktop/Project/temp/include -I/home/ubuntu/Desktop/Project/temp/submodule/zip/src  -W -Wall -Wextra -ansi -pedantic -std=c++11 -g -g -std=c++11 -o CMakeFiles/libzippp.dir/src/libzippp.cpp.o -c /home/ubuntu/Desktop/Project/temp/submodule/zip/src/libzippp.cpp",
+  "file": "/home/ubuntu/Desktop/Project/temp/submodule/zip/src/libzippp.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/c++  -W -Wall -Wextra -ansi -pedantic -std=c++11 -O3 -DNDEBUG -O3 CMakeFiles/libzippp_test.dir/tests/tests.cpp.o -o libzippp_static_test  libzippp_static.a /usr/lib/x86_64-linux-gnu/libzip.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libbz2.so /usr/lib/x86_64-linux-gnu/libcrypto.so 

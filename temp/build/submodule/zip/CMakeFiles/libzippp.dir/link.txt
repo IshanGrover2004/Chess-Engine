@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzippp_static.a CMakeFiles/libzippp.dir/src/libzippp.cpp.o
+/usr/bin/ranlib libzippp_static.a

@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/zipcmp.dir/zipcmp.c.o CMakeFiles/zipcmp.dir/diff_output.c.o -o zipcmp  ../lib/libzip.a /home/ubuntu/Desktop/Project/modman/submodule/zip/lib/zlib-1.2.13/libz.a /usr/lib/x86_64-linux-gnu/libbz2.so 

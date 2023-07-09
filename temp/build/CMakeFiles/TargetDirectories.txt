@@ -1,0 +1,6 @@
+/home/ubuntu/Desktop/Project/temp/build/CMakeFiles/ModMan.dir
+/home/ubuntu/Desktop/Project/temp/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/Project/temp/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/Project/temp/build/submodule/zip/CMakeFiles/libzippp.dir
+/home/ubuntu/Desktop/Project/temp/build/submodule/zip/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/Project/temp/build/submodule/zip/CMakeFiles/rebuild_cache.dir
